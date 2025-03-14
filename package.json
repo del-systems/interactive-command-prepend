@@ -13,5 +13,9 @@
 	},
 	"dependencies": {
 		"node-pty": "^1.0.0"
+	},
+	"private": false,
+	"bin": {
+		"interactive-command-prepend": "./index.js"
 	}
 }
