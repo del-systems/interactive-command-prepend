@@ -1,11 +1,17 @@
 {
-  "name": "interactive-command-prepend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "MIT",
-  "description": ""
+	"name": "@del-systems/interactive-command-prepend",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Shakhzod Ikromov <aabbcc.double@gmail.com>",
+	"license": "MIT",
+	"description": "Run interactive command and prepend writes",
+	"devDependencies": {
+		"@tsconfig/node22": "^22.0.0"
+	},
+	"dependencies": {
+		"node-pty": "^1.0.0"
+	}
 }
