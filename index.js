@@ -32,6 +32,7 @@ const options = JSON.parse(
 const term = pty.spawn(options.exec, options.args);
 term.onExit((exit) => process.exit(exit.exitCode));
 term.onData((data) => process.stdout.write(data));
+term.resize(process.stdout.columns, process.stdout.rows)
 
 const handleSignal = (signal) => term.kill(handle);
 
